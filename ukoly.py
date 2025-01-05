@@ -5,17 +5,18 @@
 # # # # #else:
 # # # # #   print("Není přestupný")
 # # # # #
-# # # # #x = int(input("Zadejte první celé číslo.\n"))
-# # # # #y = int(input("Zadejte druhé celé číslo.\n"))
-# # # # #hodnota = (x**y)
-# # # # #print (f"Výsledek umocněné hodnoty je {hodnota}.")
-# # # # #count(result)
-# cnter = 1
-# # # # #for a in range (100,10000,1):
-# # # # #    a = str(a)
-# # # # #    if a[0] != a[1] or a[0] != a[2] or a[0] != a[3] or a[1] != a[2] or a[1] != a[3] or a[2] != a[3]:
-# # # # #        counter+=1
-# # # # #print(f"Počet čísel, která nemají dvě stejné číslice je {counter}.")
+x = int(input("Zadejte první celé číslo.\n"))
+y = int(input("Zadejte druhé celé číslo.\n"))
+hodnota = (x**y)
+print (f"Výsledek umocněné hodnoty je {hodnota}.")
+
+count(result)
+cnter = 1
+for a in range (100,10000,1):
+   a = str(a)
+   if a[0] != a[1] or a[0] != a[2] or a[0] != a[3] or a[1] != a[2] or a[1] != a[3] or a[2] != a[3]:
+       counter+=1
+print(f"Počet čísel, která nemají dvě stejné číslice je {counter}.")
 # # # # # print("Nakládáme maso.")
 # # # # # cena = 0
 # # # # # odpoved = input("Chceš Bůček, Plec, Špek?")
