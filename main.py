@@ -189,3 +189,74 @@
 # #   for j in range(1,11):
 # #     print(i,"*",j,"=",i*j)
 
+# list = ["Ahoj", "nazdar", "čau"]
+# list[2] = "kuk"
+# print(list)
+
+# list = ["Ahoj", "nazdar", "čau"]
+# list.insert(2,"kuk")
+# print(list)
+# count=0
+# list = [2,3,5,3,1]
+# for i in list:
+#     count+=i
+#     print(i)
+# print(f"Součet je {count}.")   
+# from random import randrange
+
+# soucet = 0
+# while soucet < 21:
+#     print('Máš', soucet, 'bodů')
+#     odpoved = input('Otočit kartu? ')
+#     if odpoved == 'ano':
+#         karta = randrange(2, 11)
+#         print('Otočil/a jsi', karta)
+#         soucet = soucet + karta
+#     elif odpoved == 'ne':
+#         break
+#     else:
+#         print('Nerozumím! Odpovídej "ano", nebo "ne"')
+
+# if soucet == 21:
+#     print('Gratuluji! Vyhrál/a jsi!')
+# elif soucet > 21:
+#     print('Smůla!', soucet, 'bodů je moc!')
+# else:
+#     print('Chybělo jen', 21 - soucet, 'bodů!')
+
+# def obsah(a,b):
+#     return a*b
+# print(f"Obsah obdélníku je ",obsah(2,3))
+
+
+# if "oko" in "Čokoláda":
+#     # prevod = ("Oko,Čokoláda")
+#     # print(prevod.upper())
+#     print (True)
+# else:
+#     print(False)
+#INICIÁLY...................
+# jmeno = input("Zadej jméno: ") 
+# prijmeni = input("Zadej příjmení: ") 
+# jmeno1= jmeno[0]
+# prijmeni1 = prijmeni[0]
+# print(jmeno1.upper()+prijmeni1.upper())
+# #zjednodušeně to samé(iniciály)
+# jmeno = input("Zadej jméno: ") 
+# prijmeni = input("Zadej příjmení: ") 
+# dohromady = (jmeno[0]+prijmeni[0]).upper()
+# print(dohromady]
+# from random import randrange # nahodne losuje čísla od 3 do 8-krom osmičky
+# cislo = randrange(3,8)
+# print(cislo)
+
+from random import randrange 
+cislo = randrange(3)
+if cislo ==0:
+    tvar="kolco"
+elif cislo ==1:
+    tvar="oval"
+else:
+    cislo="troj" 
+print(tvar)      
+
